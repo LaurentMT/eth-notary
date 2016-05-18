@@ -1,0 +1,10 @@
+environments/development/build/app.css
+environments/development/build/app.js
+environments/development/build/index.html
+environments/development/config.js
+environments/development/contracts/Mortal.sol.js
+environments/development/contracts/Notary.sol.js
+environments/development/contracts/Owned.sol.js
+environments/test/contracts/Mortal.sol.js
+environments/test/contracts/Notary.sol.js
+environments/test/contracts/Owned.sol.js

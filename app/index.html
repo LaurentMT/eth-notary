@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Virtual Notary - Sandbox</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href="./app.css" rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+
+<body>
+  <h1>Virtual Notary - Sandbox</h1>
+  <br>
+
+  <h2>Register a proof</h2>
+  <br>
+  <label for="registeFile">Select a file:</label>
+  <input type="file" id="registerFile"></input>
+  <br>
+  <label for="registerComment">Comment:</label>
+  <input type="text" id="registerComment" placeholder="e.g., Document describing my genious idea"></input>
+  <br><br>
+  <button id="register" onclick="register()">Register</button>
+  <br><br>
+  <span id="registerStatus"></span>
+
+  <br><br>
+
+  <h2>Check a proof</h2>
+  <br>
+  <label for="checkFile">Select a file:</label>
+  <input type="file" id="checkFile"></input>
+  <br><br>
+  <button id="check" onclick="check()">Check</button>
+  <br><br>
+  <span id="checkStatus"></span>
+
+</body>
+
+</html>
